@@ -1,0 +1,33 @@
+.App {
+	background: #008b8b;
+	min-height: 100vh;
+}
+.Quiz {
+	width: 500px;
+	max-width: 100%;
+	padding: 20px;
+	margin: auto;
+	box-sizing: border-box;
+}
+.list-item {
+	list-style: none;
+	border: 1px solid #dedede;
+	border-radius: 20px;
+	color: white;
+	padding: 15px;
+	margin-bottom: 4px;
+	transition: background .3s;
+	&:last-child {
+		margin-bottom: 0;
+	}
+	&:hover{
+		background: #00b9b9;
+	}
+}
+
+.wrong {
+	background: red !important;
+}
+.correct {
+	background: green !important;
+}
